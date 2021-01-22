@@ -1,1 +1,5 @@
-Hola
+Sistema de automatizacion del hogar hecho desde 0. Para Raspberry Pi utilizando docker y microservicios. No se descarta utilizar distintos lenguajes de programacion, con fines educativos.
+
+1. Registro de dispositivos. Mantiene un registro de que dispositivos existen en el sistema. Si un nuevo dispositivo se une al sistema este se deberá registrar. (Solamente necesita estar atento de los dispositivos que se quieren registrar con el sistema) Se puede utilizar una base de datos key value, aunque no se descarta utilizar mongodb como base de datos de registro. Se puede utilizar python con Flask
+2. Utilizar distintos controladores, por ejemplo una raspberry con un sensor de temperatura. O las distintas bombillas o enchufes inteligente. Se va a utilizar JavaScript o TypeScript con el fin de utilziar los modulos disponibles en npm para controlar los distintos dispositivos.
+3. Interfaz web que nos permetira compartir la informacion y modificar el estado de los distintos dispositivos.
