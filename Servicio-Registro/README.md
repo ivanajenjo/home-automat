@@ -45,7 +45,7 @@ Las respuestas de mensaje solamente van a añadir detalle de la operacion realiz
 
  **Definiciones**
 
- `POST /devices
+ `POST /devices`
 
  **Argumentos**
  - `"identificador": string` un identificador global y único para el dispositivo.
@@ -70,9 +70,8 @@ Las respuestas de mensaje solamente van a añadir detalle de la operacion realiz
 
 ### Obtener detalles de un dispositivo
 
-`GET /device/<identificador>
-
-**REspuestas**
+`GET /device/<identificador>`
+**Respuestas**
 
 - `404 Not Found` si el dispositivo no existe.
 - `200 OK` on success.

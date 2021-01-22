@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  registro-dispositivos:
+    build: .
+    volumes: 
+      - .:usr/src/app
