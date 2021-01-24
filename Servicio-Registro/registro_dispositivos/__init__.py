@@ -48,7 +48,7 @@ class ListaDispositivos(Resource):
         for key in keys:
             devices.append(shelf[key])
 
-        return {'message': 'Success', 'data': devices}, 200
+        return {'mensaje': 'Correcto', 'data': devices}, 200
 
     def post(self):
         parser = reqparse.RequestParser()
@@ -64,7 +64,7 @@ class ListaDispositivos(Resource):
         shelf = get_db()
         shelf[args['identificador']] = args
 
-        return {'message': 'Dispositivo registrado', 'data': args}, 201
+        return {'mensaje': 'Dispositivo registrado', 'data': args}, 201
 
 
 class Dispositivo(Resource):

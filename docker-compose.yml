@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   registro-dispositivos:
-    build: .
+    build: ./Servicio-Registro
     ports: 
       - 5000:80
